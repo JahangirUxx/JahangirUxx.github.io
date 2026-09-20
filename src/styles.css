@@ -32,3 +32,11 @@ footer{border-top:1px solid var(--line);padding:45px clamp(22px,7vw,110px);displ
 @media(max-width:620px){.nav{height:65px}.hero{padding-top:125px;min-height:820px}.hero h1{font-size:clamp(49px,14vw,70px);letter-spacing:-.07em}.hero-sub{font-size:16px}.hero-actions{flex-wrap:wrap}.hero-meta{font-size:8px}.hero-meta span:nth-child(2){display:none}.section{padding:95px 20px}.section-head{display:block;margin-bottom:45px}.section-head h2{margin:18px 0 25px}.section h2{font-size:clamp(48px,14vw,70px)}.projects{grid-template-columns:1fr;gap:50px}.project-art{height:105vw;max-height:510px}.project-info h3{font-size:27px}.service{grid-template-columns:38px 1fr 20px}.service p{grid-column:2/4;margin-top:-8px}.service h3{font-size:24px}.form-row{grid-template-columns:1fr}.statement{padding:110px 20px}.statement h2{font-size:clamp(48px,13vw,68px)}footer{grid-template-columns:1fr;padding:35px 20px}.footer-links{justify-content:flex-start;flex-wrap:wrap}.about h2,.contact h2{font-size:clamp(48px,13vw,70px)}}
 @media(max-width:350px){.hero h1{font-size:47px}.hero-actions .primary,.hero-actions .secondary{width:100%;justify-content:center}.hero-meta{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.hero-orbit,.marquee div{animation:none}.hero-glow{transition:none}.project-art,.art-window,.service{transition:none}}
+.project-b .project-art{
+  height:min(46vw,610px);
+}
+
+.project-b .art-window{
+  width:92%;
+  height:82%;
+}
