@@ -52,19 +52,6 @@ const projects = [
     image: "/images/monpay.webp",
     href: "https://www.behance.net/gallery/249207727/MonPay-Redesigning-Fintech-Onboarding-UX-Case-Study"
   },
-
-  {
-    number: "05",
-    title: "North Star",
-    category: "SaaS / Dashboard / Product",
-    description:
-      "An executive intelligence dashboard designed to give CEOs and leadership teams instant visibility into revenue, business signals, growth, and platform health.",
-    className: "project-e",
-    image: "/images/north-star.webp",
-    href: "https://www.behance.net/gallery/244774025/Dashboard-UIUX-for-CEOs-SaaS-Leaders"
-  }
-];
-
 const services = [
   ["01", "UI/UX Design", "Product strategy, user flows, wireframes, prototypes and polished interfaces."],
   ["02", "Web Design", "Conversion-focused landing pages and responsive websites for modern brands."],
