@@ -179,15 +179,14 @@ useEffect(() => {
     </button>
   </nav>
 
-  <button
-    className="menu"
-    onClick={() => setMenu(!menu)}
-    aria-label="Toggle navigation"
-  >
-    {menu ? <X /> : <Menu />}
-  </button>
+<button
+  className="menu"
+  onClick={() => setMenu(!menu)}
+  aria-label="Toggle navigation"
+>
+  {menu ? <X /> : <Menu />}
+</button>
 </header>
-
       <main id="top">
         <section className="hero">
           <div className="hero-glow" />
