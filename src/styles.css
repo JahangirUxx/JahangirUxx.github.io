@@ -68,3 +68,55 @@ footer{border-top:1px solid var(--line);padding:45px clamp(22px,7vw,110px);displ
 .project:hover .project-art img{
   transform:scale(1.03);
 }
+body.light-mode{
+  --bg:#f5f4ef;
+  --surface:#ffffff;
+  --surface2:#ebeae4;
+  --text:#111111;
+  --muted:#686761;
+  --line:rgba(0,0,0,.12);
+}
+
+body.light-mode .nav{
+  background:linear-gradient(180deg,rgba(245,244,239,.95),transparent);
+}
+
+body.light-mode .hero-grid{
+  opacity:.35;
+}
+
+body.light-mode .hero h1 em,
+body.light-mode .section h2 em,
+body.light-mode .statement em,
+body.light-mode .about h2 em,
+body.light-mode .contact h2 em{
+  color:#5f5d58;
+}
+
+body.light-mode .hero-sub,
+body.light-mode .section-intro,
+body.light-mode .project-info p{
+  color:#66645f;
+}
+
+body.light-mode .secondary{
+  color:#111;
+}
+
+body.light-mode .secondary:hover{
+  background:#111;
+  color:#fff;
+}
+
+body.light-mode .project-art{
+  background:#ebeae4;
+}
+
+body.light-mode .marquee{
+  color:#77746d;
+}
+
+body.light-mode .theme-toggle:hover{
+  background:#111;
+  color:#f5f4ef;
+}
