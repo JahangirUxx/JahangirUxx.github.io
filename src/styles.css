@@ -120,3 +120,53 @@ body.light-mode .theme-toggle:hover{
   background:#111;
   color:#f5f4ef;
 }
+body.light-mode .hero h1{
+  color:#111111;
+}
+
+body.light-mode .hero h1 em{
+  color:#5f5d58;
+}
+
+body.light-mode .nav-links button{
+  color:#222222;
+}
+
+body.light-mode .nav-links button:hover{
+  color:#111111;
+}
+
+body.light-mode .nav-cta{
+  color:#111111;
+  border-color:rgba(0,0,0,.15);
+}
+
+body.light-mode .logo{
+  color:#111111;
+}
+
+body.light-mode .hero-sub{
+  color:#55534e;
+}
+
+body.light-mode .hero-meta{
+  color:#77746d;
+}
+
+body.light-mode .eyebrow,
+body.light-mode .kicker,
+body.light-mode .label{
+  color:#66635d;
+}
+
+body.light-mode .status-dot{
+  background:var(--accent);
+}
+
+body.light-mode .hero-orbit{
+  border-color:rgba(100,120,20,.18);
+}
+
+body.light-mode .hero-grid{
+  opacity:.25;
+}
