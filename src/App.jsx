@@ -132,7 +132,11 @@ function App() {
         body: data,
         headers: { Accept: "application/json" }
       });
-      if (!res.ok) throw new Error("Submission failed");
+      if (!res.ok) {
+  const errorData = await res.json().catch(() => null);
+  console.error("Formspree error:", errorData);
+  throw new Error("Submission failed");
+}
       form.reset();
       setSent(true);
     } catch {
