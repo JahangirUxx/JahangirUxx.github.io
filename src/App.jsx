@@ -16,7 +16,7 @@ const projects = [
     description:
       "A modern AI voice-agent experience designed to help businesses create, launch, and manage intelligent voice conversations with clarity and ease.",
     className: "project-a",
-    image: "/images/italk.webp",
+    image: "/images/italk.png",
     href: "https://www.behance.net/gallery/254054857/AI-Voice-Agent-SaaS-Website-UIUX-Design"
   },
 
