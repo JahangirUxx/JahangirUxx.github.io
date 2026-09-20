@@ -206,7 +206,21 @@ function App() {
             {projects.map((p, i) => (
               <Reveal key={p.title} delay={i * 70}>
                 <a className={`project ${p.className}`} href={p.href} target="_blank" rel="noreferrer">
-                  <div className="project-art"> <img src={p.image} alt={`${p.title} project preview`} /></div>
+                  <div className="project-art">
+  {p.title === "Hablax" ? (
+    <div className="art-window">
+      <div className="art-bar"/>
+      <div className="art-lines"/>
+      <div className="art-card"/>
+      <div className="art-pill"/>
+    </div>
+  ) : (
+    <img
+      src={p.image}
+      alt={`${p.title} project preview`}
+    />
+  )}
+</div>
                   <div className="project-info">
                     <span>{p.number} / {p.category}</span><h3>{p.title} <ArrowUpRight size={23}/></h3><p>{p.description}</p>
                   </div>
