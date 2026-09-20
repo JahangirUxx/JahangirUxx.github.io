@@ -254,7 +254,7 @@ function App() {
                 <label>Estimated budget<select name="budget" defaultValue=""><option value="" disabled>Select a range</option><option>$500 – $1,000</option><option>$1,000 – $2,500</option><option>$2,500 – $5,000</option><option>$5,000+</option><option>Not sure — recommend a budget</option></select></label>
                 <label>Timeline<select name="timeline" defaultValue=""><option value="" disabled>Select timeline</option><option>ASAP</option><option>1–2 weeks</option><option>3–4 weeks</option><option>1–2 months</option><option>Flexible</option></select></label>
               </div>
-              <label className="file-label">Attach brief / files <span>Optional</span><div className="file-box"><Paperclip size={17}/> <span>Choose files</span><input type="file" name="attachments" multiple accept=".pdf,.png,.jpg,.jpeg,.webp,.doc,.docx,.zip"/></div></label>
+             </label>
               <input type="hidden" name="_subject" value="New Portfolio Project Inquiry — Jahangir Hussain"/>
               <input type="hidden" name="_gotcha" />
               {sent && <div className="success"><Check size={17}/> Thanks — your inquiry has been sent. I’ll get back to you within 24–48 hours.</div>}
