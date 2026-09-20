@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import {
-  ArrowUpRight, ArrowDown, Menu, X, Mail, Linkedin,
-  Dribbble, Check, Paperclip, Sparkles
+ArrowUpRight, ArrowDown, Menu, X, Mail, Linkedin,
+Dribbble, Check, Paperclip, Sparkles, Sun, Moon
 } from "lucide-react";
 
 const FORM_ENDPOINT =
