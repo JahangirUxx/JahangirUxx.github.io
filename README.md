@@ -32,6 +32,6 @@ After purchasing your domain, add it under **Settings → Pages → Custom domai
 The contact form uses Formspree. The project currently contains a placeholder endpoint.
 For the live form, set the GitHub Actions repository secret:
 
-`VITE_FORMSPREE_ENDPOINT`
+`[VITE_FORMSPREE_ENDPOINT](https://formspree.io/f/mdekazrl)`
 
 to your Formspree endpoint, then redeploy.
