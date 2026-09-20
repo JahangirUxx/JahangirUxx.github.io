@@ -47,7 +47,24 @@ footer{border-top:1px solid var(--line);padding:45px clamp(22px,7vw,110px);displ
 .project-art img{
   transition:transform .7s cubic-bezier(.2,.8,.2,1);
 }
+.theme-toggle{
+  width:42px;
+  height:42px;
+  border:1px solid var(--line);
+  border-radius:50%;
+  background:transparent;
+  color:var(--text);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:all .3s ease;
+}
 
+.theme-toggle:hover{
+  background:var(--text);
+  color:var(--bg);
+  transform:rotate(12deg);
+}
 .project:hover .project-art img{
   transform:scale(1.03);
 }
