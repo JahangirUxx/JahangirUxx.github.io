@@ -82,6 +82,10 @@ function Reveal({ children, className = "", delay = 0 }) {
 }
 
 function App() {
+  const [lightMode, setLightMode] = useState(false);
+useEffect(() => {
+  document.body.classList.toggle("light-mode", lightMode);
+}, [lightMode]);
   const [menu, setMenu] = useState(false);
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
