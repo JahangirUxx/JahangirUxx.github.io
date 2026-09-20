@@ -52,6 +52,7 @@ const projects = [
     image: "/images/monpay.webp",
     href: "https://www.behance.net/gallery/249207727/MonPay-Redesigning-Fintech-Onboarding-UX-Case-Study"
   }
+  ];
 const services = [
   ["01", "UI/UX Design", "Product strategy, user flows, wireframes, prototypes and polished interfaces."],
   ["02", "Web Design", "Conversion-focused landing pages and responsive websites for modern brands."],
