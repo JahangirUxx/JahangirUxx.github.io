@@ -153,24 +153,40 @@ useEffect(() => {
     <div className="site">
       <div className="progress" style={{ width: `${progress}%` }} />
 
-      <header className="nav">
-        <button className="logo" onClick={() => scrollTo("top")}>JH<span>.</span></button>
-        <nav className={menu ? "nav-links open" : "nav-links"}>
-          <button
-  className="theme-toggle"
-  onClick={() => setLightMode(!lightMode)}
-  aria-label={lightMode ? "Switch to dark mode" : "Switch to light mode"}
->
-  {lightMode ? <Moon size={17} /> : <Sun size={17} />}
-          <button onClick={() => scrollTo("work")}>Work</button>
-          <button onClick={() => scrollTo("about")}>About</button>
-          <button onClick={() => scrollTo("services")}>Services</button>
-          <button className="nav-cta" onClick={() => scrollTo("contact")}>Start a project <ArrowUpRight size={15}/></button>
-        </nav>
-        <button className="menu" onClick={() => setMenu(!menu)} aria-label="Toggle navigation">
-          {menu ? <X/> : <Menu/>}
-        </button>
-      </header>
+     <header className="nav">
+  <button className="logo" onClick={() => scrollTo("top")}>
+    JH<span>.</span>
+  </button>
+
+  <nav className={menu ? "nav-links open" : "nav-links"}>
+    <button onClick={() => scrollTo("work")}>Work</button>
+    <button onClick={() => scrollTo("about")}>About</button>
+    <button onClick={() => scrollTo("services")}>Services</button>
+
+    <button
+      className="theme-toggle"
+      onClick={() => setLightMode(!lightMode)}
+      aria-label={lightMode ? "Switch to dark mode" : "Switch to light mode"}
+    >
+      {lightMode ? <Moon size={17} /> : <Sun size={17} />}
+    </button>
+
+    <button
+      className="nav-cta"
+      onClick={() => scrollTo("contact")}
+    >
+      Start a project <ArrowUpRight size={15} />
+    </button>
+  </nav>
+
+  <button
+    className="menu"
+    onClick={() => setMenu(!menu)}
+    aria-label="Toggle navigation"
+  >
+    {menu ? <X /> : <Menu />}
+  </button>
+</header>
 
       <main id="top">
         <section className="hero">
