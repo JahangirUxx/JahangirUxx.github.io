@@ -13,49 +13,55 @@ const projects = [
     number: "01",
     title: "iTalk",
     category: "AI / SaaS / Web",
-    description: "A conversational AI experience designed to feel human, approachable and effortless.",
+    description:
+      "A modern AI voice-agent experience designed to help businesses create, launch, and manage intelligent voice conversations with clarity and ease.",
     className: "project-a",
-    href: "https://www.behance.net/JahangirHussaini"
+    image: "/images/italk.webp",
+    href: "https://www.behance.net/gallery/254054857/AI-Voice-Agent-SaaS-Website-UIUX-Design"
   },
+
   {
     number: "02",
-    title: "SavePaiso",
-    category: "Fintech / Mobile",
-    description: "A family-focused money management experience built around clarity, savings and everyday financial decisions.",
+    title: "Hablax",
+    category: "Commerce / Fintech / Web",
+    description:
+      "A global digital commerce experience for gift cards, gaming, mobile recharges, eSIMs, entertainment, and everyday digital services across 200+ countries.",
     className: "project-b",
-    href: "https://www.behance.net/JahangirHussaini"
+    image: "/images/hablax.webp",
+    href: "https://www.hablax.com/"
   },
+
   {
     number: "03",
     title: "True Wallet",
-    category: "Fintech / Web3",
-    description: "A modern digital wallet concept balancing trust, utility and a premium financial interface.",
+    category: "Web3 / Fintech / Mobile",
+    description:
+      "A secure Web3 wallet experience focused on clear user flows, intuitive crypto interactions, and a premium mobile-first financial experience.",
     className: "project-c",
-    href: "https://www.behance.net/JahangirHussaini"
+    image: "/images/true-wallet.webp",
+    href: "https://www.behance.net/gallery/250327661/Web3-Crypto-Wallet-Mobile-App-UIUX-Design-Case-Study"
   },
+
   {
     number: "04",
-    title: "Muaqid",
-    category: "SaaS / Platform",
-    description: "A contract management platform concept designed for fast-moving teams and service businesses.",
+    title: "MonPay",
+    category: "Fintech / Mobile / UX",
+    description:
+      "A fintech onboarding redesign focused on making account setup clearer, smoother, and more approachable through a streamlined mobile experience.",
     className: "project-d",
-    href: "https://www.behance.net/JahangirHussaini"
+    image: "/images/monpay.webp",
+    href: "https://www.behance.net/gallery/249207727/MonPay-Redesigning-Fintech-Onboarding-UX-Case-Study"
   },
+
   {
     number: "05",
-    title: "DigitalMoney",
-    category: "Brand / Fintech",
-    description: "A bold fintech identity and product direction built around digital-first visual language.",
+    title: "North Star",
+    category: "SaaS / Dashboard / Product",
+    description:
+      "An executive intelligence dashboard designed to give CEOs and leadership teams instant visibility into revenue, business signals, growth, and platform health.",
     className: "project-e",
-    href: "https://www.behance.net/JahangirHussaini"
-  },
-  {
-    number: "06",
-    title: "Travel",
-    category: "Web / Product",
-    description: "A premium travel experience focused on discovery, confidence and conversion.",
-    className: "project-f",
-    href: "https://www.behance.net/JahangirHussaini"
+    image: "/images/north-star.webp",
+    href: "https://www.behance.net/gallery/244774025/Dashboard-UIUX-for-CEOs-SaaS-Leaders"
   }
 ];
 
