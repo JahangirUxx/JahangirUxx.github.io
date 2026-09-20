@@ -156,6 +156,12 @@ useEffect(() => {
       <header className="nav">
         <button className="logo" onClick={() => scrollTo("top")}>JH<span>.</span></button>
         <nav className={menu ? "nav-links open" : "nav-links"}>
+          <button
+  className="theme-toggle"
+  onClick={() => setLightMode(!lightMode)}
+  aria-label={lightMode ? "Switch to dark mode" : "Switch to light mode"}
+>
+  {lightMode ? <Moon size={17} /> : <Sun size={17} />}
           <button onClick={() => scrollTo("work")}>Work</button>
           <button onClick={() => scrollTo("about")}>About</button>
           <button onClick={() => scrollTo("services")}>Services</button>
